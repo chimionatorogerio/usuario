@@ -22,7 +22,7 @@ Criar método Get para buscar usuários (concluída)
 Criar método Delete para excluir usuários (concluída)
 Criar método de login de usuário (concluída)
 Criar métodos Put para alterar:
-- Nome, email e senha
+- Nome, email e senha (concluída)
 - Endereços
 - Telefones
 Criar métodos Post para que usuários já cadastrados possam incluir um:
