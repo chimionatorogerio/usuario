@@ -1,6 +1,4 @@
-Agendador de tarefas
-
-<< Atualmente estou trabalhando no desenvolvimento desta aplicação no microsserviço cadastro de usuários >>
+<< Atualmente estou trabalhando no desenvolvimento desta aplicação no microsserviço  cadastro de usuários >>
 
 A principal função dessa aplicação será enviar para o usuário um lembrete das tarefas que ele agendou.
 
@@ -14,16 +12,22 @@ MICROSSERVIÇOS QUE PRECISAM SER DESENVOLVIDOS
 4) BFF (Back-end For Front-end). Este padrão de arquitetura fará a intermediação entre os 3 primeiros microsserviços e o Front-end
 
 CADASTRO DE USUÁRIOS - TAREFAS
-Criar o banco de dados db_usuario no PostegreSQL (tarefa concluída)
-Inicializar a aplicação usando o Spring Initializr (tarefa concluída)
-Criar o repositório usuario no GitHub (tarefa concluída)
-Configurar o CI/CD (tarefa concluída)
-Configurar a segurança com Spring Security (tarefa concluída)
-Criar método Post para cadastrar usuários (tarefa concluída)
-Criar método Get para buscar usuários (tarefa concluída)
-Criar método Delete para excluir usuários (tarefa concluída)
-Criar método de login de usuário (tarefa concluída)
-Criar método Put para alterar dados dos usuários 
+Criar o banco de dados db_usuario no PostegreSQL (concluída)
+Inicializar a aplicação usando o Spring Initializr (concluída)
+Criar o repositório usuario no GitHub (concluída)
+Configurar o CI/CD (concluída)
+Configurar a segurança com Spring Security (concluída)
+Criar método Post para cadastrar usuários (concluída)
+Criar método Get para buscar usuários (concluída)
+Criar método Delete para excluir usuários (concluída)
+Criar método de login de usuário (concluída)
+Criar métodos Put para alterar:
+- Nome, email e senha
+- Endereços
+- Telefones
+Criar métodos Post para que usuários já cadastrados possam incluir um:
+- Endereço
+- Telefone
 Configurar Endpoint de verificação do token JWT pelo Agendador
 
 AGENDADOR DE TAREFAS - TAREFAS
@@ -39,6 +43,7 @@ NOTIFICAÇÃO POR EMAIL - TAREFAS
 Criar método para enviar email
 
 BFF - TAREFAS
-Criar endpoints que apontam para o cadastro de usuários
-Criar endpoints que apontam para o agendador de tarefas
+Criar endpoints que apontam para o: 
+- Cadastro de usuários
+- Agendador de tarefas
 Criar cron que chama a notificação por email
