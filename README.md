@@ -17,14 +17,15 @@ Inicializar a aplicação usando o Spring Initializr (concluída)
 Criar o repositório usuario no GitHub (concluída)
 Configurar o CI/CD (concluída)
 Configurar a segurança com Spring Security (concluída)
-Criar método Post para cadastrar usuários (concluída)
-Criar método Get para buscar usuários (concluída)
-Criar método Delete para excluir usuários (concluída)
-Criar método de login de usuário (concluída)
+Criar método:
+- Post para cadastrar usuários (concluída)
+- Get para buscar usuários (concluída)
+- Delete para excluir usuários (concluída)
+- de login de usuário (concluída)
 Criar métodos Put para alterar:
 - Nome, email e senha (concluída)
-- Endereços
-- Telefones
+- Endereços (concluída)
+- Telefones (concluída)
 Criar métodos Post para que usuários já cadastrados possam incluir um:
 - Endereço
 - Telefone
