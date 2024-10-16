@@ -1,4 +1,4 @@
-<< Atualmente estou trabalhando no desenvolvimento desta aplicação no microsserviço  cadastro de usuários >>
+<< Atualmente estou trabalhando no desenvolvimento desta aplicação no microsserviço  Agendador de tarefas >>
 
 A principal função dessa aplicação será enviar para o usuário um lembrete das tarefas que ele agendou.
 
@@ -6,7 +6,7 @@ METODOLOGIA ÁGIL KANBAN
 Vamos dividir a aplicação em quatro microsserviços. Para cada microsserviço, faremos uma lista de tarefas. O objetivo é melhorar a organização do projeto e agilizar o desenvolvimento da aplicação.
 
 MICROSSERVIÇOS QUE PRECISAM SER DESENVOLVIDOS
-1) Cadastro de usuários
+1) Cadastro de usuários (concluído)
 2) Agendador de tarefas
 3) Notificação por email
 4) BFF (Back-end For Front-end). Este padrão de arquitetura fará a intermediação entre os 3 primeiros microsserviços e o Front-end
@@ -27,17 +27,18 @@ Criar métodos Put para alterar:
 - Endereços (concluída)
 - Telefones (concluída)
 Criar métodos Post para que usuários já cadastrados possam incluir um:
-- Endereço
-- Telefone
-Configurar Endpoint de verificação do token JWT pelo Agendador
+- Endereço (concluída)
+- Telefone (concluída)
 
 AGENDADOR DE TAREFAS - TAREFAS
+Configurar Endpoint de verificação do token JWT pelo Agendador
 Criar o repositório agendador no GitHub
-Criar método Post para cadastrar tarefas
-Criar método Get para buscar tarefas
-Criar método Put para alterar dados das tarefas
-Criar método Patch para alterar somente o status das tarefas
-Criar método Delete para excluir tarefas
+Criar método:
+- Post para cadastrar tarefas
+- Get para buscar tarefas
+- Put para alterar dados das tarefas
+- Patch para alterar somente o status das tarefas
+- Delete para excluir tarefas
 Criar o banco de dados NoSQL db_agendador no MongoDB
 
 NOTIFICAÇÃO POR EMAIL - TAREFAS
