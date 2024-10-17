@@ -31,15 +31,8 @@ Criar métodos Post para que usuários já cadastrados possam incluir um:
 - Telefone (concluída)
 
 AGENDADOR DE TAREFAS - TAREFAS
-Configurar Endpoint de verificação do token JWT pelo Agendador
-Criar o repositório agendador no GitHub
-Criar método:
-- Post para cadastrar tarefas
-- Get para buscar tarefas
-- Put para alterar dados das tarefas
-- Patch para alterar somente o status das tarefas
-- Delete para excluir tarefas
-Criar o banco de dados NoSQL db_agendador no MongoDB
+Acompanhe o andamento do desenvolvimento do Agendador de tarefas no repositório agendador-tarefas
+https://github.com/chimionatorogerio/agendador-tarefas
 
 NOTIFICAÇÃO POR EMAIL - TAREFAS
 Criar método para enviar email
